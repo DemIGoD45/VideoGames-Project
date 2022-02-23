@@ -1,0 +1,30 @@
+.container_Nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    /* background-color: wheat; */
+    margin-top: auto;
+    margin-bottom: 5rem;
+    margin-right: 3rem;
+    padding-top: 5.5rem;
+    padding-bottom: 3rem;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.div_Num{
+    margin-bottom: 1rem;
+    border: none;
+    padding: 1rem;
+    background-color: rgba(20, 23, 26, 0.924);
+}
+.div_Num:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.411),0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+.numbers{
+    font-size: 2rem;
+    color:white;
+    font-family: 'VT323', monospace;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&family=Source+Code+Pro:wght@300&family=VT323&display=swap');
+img{
+  width: 50%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./img/imgBody.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size:cover;
+  /* height: 50rem; */
+}
+h1, h2, h3 {
+  font-family: 'VT323', monospace;
+}
+p {
+  font-family: 'Source Code Pro', monospace;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
